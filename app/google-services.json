@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "736649804333",
+    "project_id": "rockscissorspaperapp",
+    "storage_bucket": "rockscissorspaperapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:736649804333:android:2f7e4b59b26b58aac216a4",
+        "android_client_info": {
+          "package_name": "com.example.rockscissorspaperapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "736649804333-s8n819mhsqjmj9vro3n6jcfr50cfqfg9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJVm2YAYwiHsLkmZkHwkPKsUWhv7RbWnc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "736649804333-s8n819mhsqjmj9vro3n6jcfr50cfqfg9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

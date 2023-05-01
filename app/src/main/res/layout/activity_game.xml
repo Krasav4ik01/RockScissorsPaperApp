@@ -7,11 +7,94 @@
     tools:context=".Game">
 
     <ImageView
-        android:id="@+id/image_opponent"
+        android:id="@+id/opponents_image"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:src="@drawable/opponent_image"
+        android:layout_marginTop="100dp"
+        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         />
+    <TextView
+        android:id="@+id/opponents_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/opponents_image"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:text="0"
+        android:textSize="40dp"
+        />
+
+    <View
+        android:id="@+id/score_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_below="@id/opponents_score"
+        android:layout_centerHorizontal="true"
+        android:background="#7A17C1"
+        />
+    <TextView
+        android:id="@+id/counter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/opponents_score"
+        android:textSize="100dp"
+        android:text=""
+        />
+
+    <TextView
+        android:id="@+id/your_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/score_txt"
+        android:layout_centerHorizontal="true"
+        android:text="0"
+        android:textSize="40dp"
+        />
+
+    <ImageView
+        android:id="@+id/your_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/opponent_image"
+        android:layout_marginTop="50dp"
+        android:layout_below="@id/your_score"
+        android:layout_centerHorizontal="true"
+        />
+    <LinearLayout
+        android:id="@+id/choices"
+        android:layout_below="@id/your_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:id="@+id/scissor_btn"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Scissor"
+            android:layout_marginHorizontal="27dp"
+            />
+        <Button
+            android:id="@+id/rock_btn"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Rock"
+            />
+        <Button
+            android:id="@+id/paper_btn"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Paper"
+            android:layout_marginHorizontal="27dp"
+            />
+
+    </LinearLayout>
+
+
+
 
 </RelativeLayout>
